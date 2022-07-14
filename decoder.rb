@@ -64,7 +64,7 @@ MORSE_DICTIONARY = {
              sentence_converted +="#{dc} "
           end
       end
-      sentence_converted
+      sentence_converted.strip
   end
   # Testing
-    puts convert_sentence('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
+    p convert_sentence('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
